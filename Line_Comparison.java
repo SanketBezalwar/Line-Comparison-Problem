@@ -16,6 +16,7 @@ public class Line_Comparison {
 
 		l1.lengthOfLine1();
 		l1.lengthOfLine2();
+		l1.lineValue();
 		l1.lengthEquality();
 		l1.lineCompare();
 	}
@@ -66,6 +67,14 @@ public class Line_Comparison {
 		System.out.println("Length of Line2 with co-ordinates (a1,b1),(" + a1 + "," + b1 + ") and (a2,b2),(" + a2 + "," + b2 + ") is " + line2);
 		System.out.println();
 
+	}
+
+	// checking value of both lines
+	public void lineValue() {
+		System.out.println("Line Values : ");
+		System.out.println("Line1 = " + line1);
+		System.out.println("Line2 = " + line2);
+		System.out.println();
 	}
 
 	// check equality of two lines
